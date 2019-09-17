@@ -11,4 +11,7 @@ const results = document.getElementById('results');
 const showCountries = async () => {
     //getting the data
     await fetchCountries();
+
+    const ul = document.createElement('ul');
+    ul.classList.add('countries');
 }
